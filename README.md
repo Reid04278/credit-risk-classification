@@ -12,16 +12,16 @@ For the second part of this assignment,  I created a second Logistic Regression 
 
 ##  Results
 * Machine Model 1:
-* 0: Precision: 1.00, Recall: 1.00, balanced accuracy score: 0.944
-* 1: Precision: 0.87, Recall: 0.89, balanced accuracy score: 0.944
+* 0: Precision: 1.00, Recall: 1.00, balanced accuracy score: 0.944, f1-score: 1.00
+* 1: Precision: 0.87, Recall: 0.89, balanced accuracy score: 0.944, f1-score: 0.88
 
 
 * Machine Model 2:
-* 0: Precision: 0.99, Recall: 0.99, balanced accuracy score: 0.994
-* 1: Precision: 0.99, Recall: 0.99, balanced accuracy score: 0.994
+* 0: Precision: 0.99, Recall: 0.99, balanced accuracy score: 0.994, f1-score: 0.99
+* 1: Precision: 0.99, Recall: 0.99, balanced accuracy score: 0.994, f1-score: 0.99
 
 
 
 
   ## Summary
-Based on the classification reports, both models would be appropriate tools to determine the health of loans. Model 2 however, was clearly superior in determining the risk of loan default, as well as being an equally good predictor of the healthiness of loans as Model 1. Therefore, I recommend the use of Model 2 to determine the creditworthiness of loan borreowers. 
+Based on the classification reports, both models would be appropriate tools to determine the health of loans. Model 1 was more likely to include false negatives in determining recall.  Model 2 however, was clearly superior in determining the risk of loan default, as well as being an equally good predictor of the healthiness of loans as Model 1. Therefore, I recommend the use of Model 2 to determine the creditworthiness of loan borreowers. 
