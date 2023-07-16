@@ -2,7 +2,7 @@
 
 ##  Overview of the Analysis
 The purpose of this analysis was to build a regression model using lending data to predict the creditworthiness of loan borrowers.
-I predicted borrowers' creditworthiness by splitting the lending data into X and y values to create the following labels: the y variable was assigned tp the loan_status column in the dataframe and the X variable was assigned to all the other columns in the dataframe. This created two labels, 0 and 1. The label "0" indicates the loan is healthy. The label "1" indicates the loan has a very high risk of defaulting.
+I predicted borrowers' creditworthiness by splitting the lending data into X and y values to create the following labels: the y variable was assigned to the loan_status column in the dataframe and the X variable was assigned to all the other columns in the dataframe. This created two labels, 0 and 1. The label "0" indicates the loan is healthy. The label "1" indicates the loan has a very high risk of defaulting.
 I split the data into testing and training sets and then fit the training data into a Logistic Regression model.  I then made predictions on the test data and created a dataframe showing
 the results. Finally, I calculated the balanced accuracy score, confusion matrix and created the classification report. 
 
