@@ -24,4 +24,4 @@ For the second part of this assignment,  I created a second Logistic Regression 
 
 
   ## Summary
-Based on the classification reports, both models would be appropriate tools to determine the health of loans. Model 1 was more likely to include false negatives in determining recall.  Model 2 however, was clearly superior in determining the risk of loan default, as well as being an equally good predictor of the healthiness of loans as Model 1. Therefore, I recommend the use of Model 2 to determine the creditworthiness of loan borreowers. 
+Based on the classification reports, both models would be appropriate tools to determine the health of loans. Model 1 was more likely to include false negatives in determining recall, as determined by the recall of 0.89 in the 1 label..  Model 2 however, was clearly superior in determining the risk of loan default, as well as being an equally good predictor of the healthiness of loans as Model 1. Therefore, I recommend the use of Model 2 to determine the creditworthiness of loan borreowers. 
